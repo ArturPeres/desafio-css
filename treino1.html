@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleT1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>Treino CSS</title>
+</head>
+
+<body>
+
+    <div>
+        <input class="botao" placeholder="Digite aqui">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus ut velit saepe ducimus dicta suscipit
+        consequatur nostrum placeat ad aliquam delectus impedit eius, qui tempora, eveniet voluptatum natus veniam.</p>
+    <a href="https://www.youtube.com">testando uns bagulho</a>
+    <br>
+    <br>
+    <br>
+    <button id="botao2">clique aqui</button>
+    <br>
+    <br>
+    <button onclick="mudarTema()">tema escuro</button>
+    <button onclick="temaClaro()">tema claro</button>
+    <br>
+    <br>
+    <input type="checkbox" id="verificado">
+    <br>
+    <br>
+    <br>
+    <ul>
+        <li>primeiro</li>
+        <li>segundo</li>
+        <li>terceiro</li>
+        <li>quarto</li>
+        <li>quinto</li>
+        <li>sexto</li>
+        <li>setimo</li>
+        <li>oitavo</li>
+        <li>nono</li>
+        <li>decimo</li>
+    </ul>
+    <div id="type">
+        <span>óla</span>
+        <span>eai</span>
+        <p class="parag">aóba</p>
+        <p class="parag">bão?</p>
+    </div>
+</body>
+
+<script>
+    const body = document.querySelector("body")
+
+    function mudarTema() {
+        body.style.backgroundColor = "black"
+    }
+
+    function temaClaro() {
+        body.style.backgroundColor = "white"
+    }
+</script>
+
+</html>

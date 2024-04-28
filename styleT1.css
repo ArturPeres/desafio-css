@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div input::placeholder {
+    position: relative;
+    left: 10px;
+}
+
+.botao {
+    margin-left: 42vw;
+    margin-top: 2vh;
+    border: 3px solid green;
+    color: purple;
+    outline: none;
+}
+
+.botao::placeholder {
+    color: rgb(255, 0, 0);
+}
+
+.botao:focus {
+    border: 3px solid yellow;
+}
+
+#lorem {
+    width: 40vw;
+}
+
+#lorem ::first-line {
+    color: rgb(55, 0, 255);
+}
+
+#lorem ::first-letter {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a::before {
+    content: "⚠️";
+}
+
+a:hover {
+    font-size: 30px;
+}
+
+a:visited {
+    color: red;
+}
+
+#botao2:active {
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+    left: 3vw;
+    top: -3vh;
+}
+
+#verificado:checked {
+    height: 20vh;
+    width: 15vw;
+}
+
+li:first-child {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    color: rgb(124, 21, 21);
+    font-size: 5vh;
+}
+
+li:last-child {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: midnightblue;
+    font-size: 5vh;
+}
+
+li:nth-child(5) {
+    color: darkolivegreen;
+    font-size: 5vh;
+}
+
+li:nth-last-child(2) {
+    color: cadetblue;
+    font-size: 5vh;
+}
+
+#type {
+    position: relative;
+    left: 80vw;
+    top: -20vh;
+}
+
+#type :not(span) {
+    color: red;
+}
+
+span:first-of-type {
+    color: darkblue;
+    font-size: 4vh;
+}
+
+.parag:first-of-type {
+    font-size: 4vh;
+}
+ 
